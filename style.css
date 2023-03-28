@@ -1,0 +1,108 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    height: 600;
+    background-color: white;
+}
+
+.container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-segundario {
+    display: none;
+    height: 100%;
+    background-position: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 64px;
+    margin-top: 16px;
+}
+
+.titulo-principal {
+    font-size: 56px;
+}
+
+.botao {
+    padding: 20px 60px;
+    border-radius: 40px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.certo {
+    background: #35a235;
+    text-decoration: none;
+}
+
+.errado {
+    background: #cb3a3a;
+}
+
+.titulo-pagina__dois {
+    margin: 0;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background: url("https://media.tenor.com/0lilcTCFa3QAAAAM/love-heart.gif") repeat;
+    
+}
+
+.titulo-segundario {
+    color: rgba(2, 2, 2, 0.829);
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Impact, fantasy;
+    font-size: 10vh;
+}
+
+.voltar {
+    background: black;
+    color: white;
+    border: 1px solid black;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .titulo-principal {
+        font-size: 32px;
+    }
+
+
+    .botao{
+        font-size: 26px;
+        padding: 10px 25px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin: 0 16px;
+    }
+
+    .container-segundario {
+        background: url("https://static.significados.com.br/foto/5839-pf-48-630x552_sm.jpg") repeat-y;
+        background-position: center;
+    }
+
+    .titulo-pagina__dois {
+        background: none;
+    }
+
+}
